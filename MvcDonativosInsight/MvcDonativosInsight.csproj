@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/4cd95b00-c0ef-4419-84e7-dd77ac8be8be/resourceGroups/rg-miercoles/providers/microsoft.insights/components/donativos</ApplicationInsightsResourceId>
+    <UserSecretsId>26eb2c18-203f-47af-8b66-2ea9781edcdd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.TraceListener" Version="2.21.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.Web" Version="2.21.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="6.0.14" />
+  </ItemGroup>
+
+</Project>
